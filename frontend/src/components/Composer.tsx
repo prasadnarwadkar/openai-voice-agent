@@ -29,7 +29,7 @@ export function Composer({
 
   return (
     <div className="flex flex-row relative px-5 py-6 w-full max-w-2xl">
-      <div className="flex flex-row gap-2 w-full relative border-2 border-gray-100 rounded-[32px] focus:outline-none px-4">
+      <div className="flex flex-row gap-2 w-full relative border-2 border-gray-100 rounded-[32px] focus:outline-none pl-6 pr-1">
         <textarea
           ref={textareaRef}
           value={prompt}

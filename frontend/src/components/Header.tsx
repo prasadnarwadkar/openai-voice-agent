@@ -30,7 +30,7 @@ export function Header({
       {agentName && (
         <div
           className={clsx(
-            "flex text-md font-semibold border-2 border-gray-100 rounded-full py-4 items-center overflow-hidden shadow-lg"
+            "flex text-sm font-semibold border-2 border-gray-100 rounded-full py-3 items-center overflow-hidden"
           )}
         >
           <div className="ml-6 mr-4">

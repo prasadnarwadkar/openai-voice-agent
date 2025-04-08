@@ -30,7 +30,7 @@ export function TextMessage({ text, isUser }: TextMessageProps) {
       })}
     >
       <div
-        className={clsx("rounded-[16px]", {
+        className={clsx("rounded-[20px]", {
           "px-4 max-w-[90%] ml-4 text-stone--900 bg-[#ededed]": isUser,
           "px-4 max-w-[90%] mr-4 text-black bg-white": !isUser,
         })}
