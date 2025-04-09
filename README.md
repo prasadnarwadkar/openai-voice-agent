@@ -40,7 +40,8 @@ This app is meant to be used as a starting point to build a conversational assis
 2. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/openai/openai-voice-agents-samples.git
+   git clone https://github.com/openai/openai-voice-agent-sdk-sample.git
+   cd openai-voice-agent-sdk-sample/ 
    ```
 
 3. **Install dependencies:**
