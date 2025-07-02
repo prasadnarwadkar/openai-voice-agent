@@ -1,0 +1,1 @@
+`"dev": "concurrently \"npm run dev:next\" \"npm run dev:server\"",`

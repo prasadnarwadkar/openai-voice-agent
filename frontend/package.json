@@ -5,7 +5,7 @@
   "scripts": {
     "dev:next": "next dev --turbo",
     "dev:server": "cd ../server && uv run server.py",
-    "dev": "concurrently \"npm run dev:next\" \"npm run dev:server\"",
+    "dev": "npm run dev:next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

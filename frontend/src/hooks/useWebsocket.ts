@@ -15,7 +15,7 @@ export function useWebsocket({
   url =
     url ??
     process.env.NEXT_PUBLIC_WEBSOCKET_ENDPOINT ??
-    "ws://localhost:8000/ws";
+    "wss://prasadn74-voiceagentserver2.hf.space/ws";
   const [isReady, setIsReady] = useState(false);
   const [history, setHistory] = useState<Message[]>([]);
   const [agentName, setAgentName] = useState<string | null>(null);

@@ -1,8 +1,6 @@
 .PHONY: sync
 sync:
 	cd frontend && npm install
-	cd server && uv sync
-
 
 .PHONY: serve
 serve:
